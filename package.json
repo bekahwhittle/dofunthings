@@ -1,0 +1,24 @@
+{
+  "name": "dofunthings",
+  "version": "1.0.0",
+  "description": "A project to do fun things",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint . && stylelint '**/*.css'",
+    "lint:fix": "eslint . --fix && stylelint '**/*.css' --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bekahwhittle/dofunthings.git"
+  },
+  "author": "Bekah Whittle",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bekahwhittle/dofunthings/issues"
+  },
+  "homepage": "https://github.com/bekahwhittle/dofunthings#readme",
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "stylelint": "^13.13.1"
+  }
+}
